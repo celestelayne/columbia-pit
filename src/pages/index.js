@@ -3,17 +3,17 @@ import { Link } from "gatsby"
 
 import { Container, Row, Col, Navbar, Nav, Jumbotron, Accordion, Card, Button } from 'react-bootstrap';
 
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Container>
+  <Layout>
     <Row>
       <SEO title="Home" />
       <Col>
 
-      <Navbar expand="lg" variant="light" bg="primary">
+      <Navbar fixed="top" expand="lg" variant="light" bg="primary">
         <Navbar.Brand href="/">PIT</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -30,10 +30,10 @@ const IndexPage = () => (
         </Navbar.Collapse>
       </Navbar>
             
-      <Jumbotron>
+      <Jumbotron >
         <h2>Public Interest Technology:<br/>
           Cities, Design, Code, Reporting</h2>
-        <p>
+        <p className="lead">
           A6883-1, Fall 2020<br/>
           Friday, 11AM - 1PM<br/>
           Instructor: Laura Kurgan<br/>
@@ -51,7 +51,7 @@ const IndexPage = () => (
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              <ul>
+              <ul className="list-unstyled">
                 <li>Faculty &amp; Syllabus Introductions</li>
                 <li>Small Group reading discussion</li>
                 <li>Large Group report back</li>
@@ -69,7 +69,7 @@ const IndexPage = () => (
           </Card.Header>
           <Accordion.Collapse eventKey="1">
             <Card.Body>
-              <ul>
+              <ul className="list-unstyled">
                 <li>Faculty &amp; Syllabus Introductions</li>
                 <li>Small Group reading discussion</li>
                 <li>Large Group report back</li>
@@ -87,7 +87,7 @@ const IndexPage = () => (
           </Card.Header>
           <Accordion.Collapse eventKey="2">
             <Card.Body>
-              <ul>
+              <ul className="list-unstyled">
                 <li>Faculty &amp; Syllabus Introductions</li>
                 <li>Small Group reading discussion</li>
                 <li>Large Group report back</li>
@@ -98,16 +98,10 @@ const IndexPage = () => (
           </Accordion.Collapse>
         </Card>
       </Accordion>
-
-      <Navbar sticky="bottom" expand="lg" variant="light" bg="light">
-        <footer>
-          <Navbar.Brand href="#">Back to top</Navbar.Brand>
-        </footer>
-      </Navbar>
       
       </Col>
     </Row>
-  </Container>
+  </Layout>
 )
 
 export default IndexPage
