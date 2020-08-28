@@ -2,108 +2,99 @@ import React from "react"
 
 import { Container, Row, Col, Navbar, Nav, CardColumns, Card } from 'react-bootstrap';
 
+import Header from "../components/header"
+import Footer from "../components/footer"
+
 import SEO from "../components/seo"
 
 const ReadingsPage = () => (
+    
     <Container>
+        <Header />
         <Row>
-        <SEO title="Readings" />
+            <SEO title="Readings" />
             <Col>
-                <Navbar fixed="top" expand="lg" variant="light" bg="primary">
-                    <Navbar.Brand href="/">PIT</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                    <Nav.Link href="/readings/">Readings</Nav.Link>
-                    <Nav.Link href="/resources/">Resources</Nav.Link>
-                    </Nav>
-                    <Nav>
-                    <Nav.Link href="#students">Students</Nav.Link>
-                    <Nav.Link eventKey={2} href="#syllabus">
-                        Syllabus
-                    </Nav.Link>
-                    </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-
                 <CardColumns>
                     <Card border="primary" style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Palaces for the People</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Eric Klinenberg</Card.Subtitle>
+                        <Card.Title>Palaces for the People: how social infrastructure can help fight inequality, polarization, and the decline of civic life</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">by Eric Klinenberg</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            <ul>
+                                <li>Introduction: The Social Infrastructure</li>
+                                <li>Chapter 1: A place to gather</li>
+                                <li>Conclusion: Before We Lift the Next Shovel</li>
+                            </ul>
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14891763">CU Library Link</Card.Link>
                     </Card.Body>
                     </Card>
 
                     <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Design of Everyday Things</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Don Norman</Card.Subtitle>
+                        <Card.Title>The Design of Everyday Things</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">by Don Norman</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            <ul>
+                                <li>Chapter 1: The Psychopathology of Everyday Things</li>
+                                <li>Chapter 6: Design Thinking </li>
+                            </ul>
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14919443?counter=1">CU Library Link</Card.Link>
                     </Card.Body>
                     </Card>
 
                     <Card style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>Library as Infrastructure</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Shannon Mattern. Places Journal. June 2014</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">by Shannon Mattern. Places Journal. June 2014</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Reading room, social service center, innovation lab. How far can we stretch the public library?
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link target="_blank" href="https://placesjournal.org/article/library-as-infrastructure/">Link</Card.Link>
                     </Card.Body>
                     </Card>
 
                     <Card style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>Fugitive Libraries</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Shannon Mattern. Places Journal. October 2019</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted">by Shannon Mattern. Places Journal. October 2019</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Public libraries may be a democratic commons, but they have often excluded Black voices and perspectives. Communities have responded by creating their own independent, itinerant libraries — spaces for learning together and building futures together.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link href="https://placesjournal.org/article/fugitive-libraries/">Link</Card.Link>
                     </Card.Body>
                     </Card>
 
                     <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Building the People’s Wifi</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Greta Byrum. Urban Omnibus.</Card.Subtitle>
+                        <Card.Title>Race After Technology: abolitionist tools for the new Jim code</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">by Ruha Benjamin</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            <ul>
+                                <li>Introduction: The New Jim Code </li>
+                                <li>Chapter 5: Retooling Solidarity, Reimagining Justice </li>
+                            </ul>
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14893196?counter=1">CU Library Link</Card.Link>
                     </Card.Body>
                     </Card>
 
                     <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Community Networking for Healing and Power in Central Appalachia</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Greta Byrum and Ever Bussey. Global Media Technologies &amp; Cultures Lab.</Card.Subtitle>
+                        <Card.Title>Libraries Must Change</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">by Anthony W. Marx (President of the New York Public Library) New York Times, Opinion. May 28 2020</Card.Subtitle>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        To stay true to their mission during the coronavirus pandemic, libraries should offer more digital services.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
+                        <Card.Link href="https://www.nytimes.com/2020/05/28/opinion/libraries-coronavirus.html">Link</Card.Link>
                     </Card.Body>
                     </Card>
                 </CardColumns>
 
             </Col>
         </Row>
-        
-        
+        <Footer />
     </Container>
 )
 
