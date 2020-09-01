@@ -6,17 +6,17 @@ import { Container, Row, Col, Navbar, Nav, Jumbotron, Accordion, Card, Button } 
 
 const Header = ({ siteTitle }) => (
   <Navbar sticky="top" expand="lg" variant="light" >
-    <Navbar.Brand href="/">PIT</Navbar.Brand>
+    <Navbar.Brand href="/columbia-pit/">PIT</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/readings/">Readings</Nav.Link>
-      <Nav.Link href="/resources/">Resources</Nav.Link>
+      <Nav.Link href="/columbia-pit/readings/">Readings</Nav.Link>
+      <Nav.Link href="/columbia-pit/resources/">Resources</Nav.Link>
     </Nav>
     <Nav>
-    <Nav.Link href="/faculty/">Faculty</Nav.Link>
+    <Nav.Link href="/columbia-pit/faculty/">Faculty</Nav.Link>
       <Nav.Link href="#students">Students</Nav.Link>
-      <Nav.Link eventKey={2} href="#syllabus">
+      <Nav.Link eventKey={2} target="_blank" href="https://drive.google.com/drive/folders/1uV92gP-SR7WHjcvaqiiBSxIQV4WEtHVx?usp=sharing">
         Syllabus
       </Nav.Link>
     </Nav>

@@ -1,6 +1,7 @@
 import React from "react"
 
-import { Container, Row, Col, Navbar, Nav, CardColumns, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import * as Icon from 'react-bootstrap-icons';
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -11,16 +12,17 @@ const FacultyPage = () => (
     
     <Container>
         <Header />
-        <Row>
+        <Row style={{ paddingBottom: 60 }}>
             <Col>
                 <h2>Architecture</h2>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem', marginBottom: 20 }}>
                     <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Laura_Kurgan.jpg" />
                     <Card.Body>
                         <Card.Title>Laura Kurgan</Card.Title>
                         <Card.Text>
-                        Professor of Architecture, GSAPP<br/>
-                        Director, Center for Spatial Research<br/>
+                        Professor of Architecture, <a target="_blank" href="https://www.arch.columbia.edu/">GSAPP</a><br/>
+                        Director, <a target="_blank" href="https://c4sr.columbia.edu/">Center for Spatial Research</a><br/>
+                        <Card.Link href="ljk33@columbia.edu"><Icon.Envelope />&nbsp;ljk33@columbia.edu</Card.Link>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -30,7 +32,8 @@ const FacultyPage = () => (
                     <Card.Body>
                         <Card.Title>Celeste Layne</Card.Title>
                         <Card.Text>
-                        Adjunct Associate Professor, GSAPP
+                        Adjunct Associate Professor, <a target="_blank" href="https://www.arch.columbia.edu/">GSAPP</a><br/>
+                        <Card.Link href="cl2754@columbia.edu"><Icon.Envelope />&nbsp;cl2754@columbia.edu</Card.Link>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -43,7 +46,8 @@ const FacultyPage = () => (
                     <Card.Body>
                         <Card.Title>Lydia Chilton</Card.Title>
                         <Card.Text>
-                        Assistant Professor of Computer Science, Columbia School of Engineering<br/>
+                        Assistant Professor of Computer Science, <a href="https://www.engineering.columbia.edu/faculty/lydia-chilton">Columbia School of Engineering</a><br/>
+                        <Card.Link href="chilton@cs.columbia.edu"><Icon.Envelope />&nbsp;chilton@cs.columbia.edu</Card.Link>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -55,8 +59,9 @@ const FacultyPage = () => (
                     <Card.Body>
                         <Card.Title>Mark Hansen</Card.Title>
                         <Card.Text>
-                        Professor, Graduate School of Journalism, Columbia University<br/>
-                        Director, The Brown Institute For Media Innovation<br/>
+                        Professor, <a href="https://journalism.columbia.edu/faculty/mark-hansen">Graduate School of Journalism</a>, Columbia University<br/>
+                        Director, <a href="https://brown.columbia.edu/">The Brown Institute For Media Innovation</a><br/>
+                        <Card.Link href="mh3287@columbia.edu"><Icon.Envelope />&nbsp;mh3287@columbia.edu</Card.Link>
                         </Card.Text>
                     </Card.Body>
                 </Card>

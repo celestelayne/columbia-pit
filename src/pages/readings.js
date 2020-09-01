@@ -1,6 +1,7 @@
 import React from "react"
 
-import { Container, Row, Col, Navbar, Nav, CardColumns, Card } from 'react-bootstrap';
+import { Container, Row, Col, CardColumns, Card } from 'react-bootstrap';
+import * as Icon from 'react-bootstrap-icons';
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -26,7 +27,7 @@ const ReadingsPage = () => (
                                 <li>Conclusion: Before We Lift the Next Shovel</li>
                             </ul>
                         </Card.Text>
-                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14891763">CU Library Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14891763">CU Library <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
 
@@ -40,7 +41,7 @@ const ReadingsPage = () => (
                                 <li>Chapter 6: Design Thinking </li>
                             </ul>
                         </Card.Text>
-                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14919443?counter=1">CU Library Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14919443?counter=1">CU Library <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
 
@@ -51,7 +52,7 @@ const ReadingsPage = () => (
                         <Card.Text>
                         Reading room, social service center, innovation lab. How far can we stretch the public library?
                         </Card.Text>
-                        <Card.Link target="_blank" href="https://placesjournal.org/article/library-as-infrastructure/">Link</Card.Link>
+                        <Card.Link target="_blank" href="https://placesjournal.org/article/library-as-infrastructure/">Places Journal <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
 
@@ -62,7 +63,7 @@ const ReadingsPage = () => (
                         <Card.Text>
                         Public libraries may be a democratic commons, but they have often excluded Black voices and perspectives. Communities have responded by creating their own independent, itinerant libraries — spaces for learning together and building futures together.
                         </Card.Text>
-                        <Card.Link href="https://placesjournal.org/article/fugitive-libraries/">Link</Card.Link>
+                        <Card.Link href="https://placesjournal.org/article/fugitive-libraries/">Places Journal <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
 
@@ -76,7 +77,7 @@ const ReadingsPage = () => (
                                 <li>Chapter 5: Retooling Solidarity, Reimagining Justice </li>
                             </ul>
                         </Card.Text>
-                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14893196?counter=1">CU Library Link</Card.Link>
+                        <Card.Link target="_blank" href="https://clio.columbia.edu/catalog/14893196?counter=1">CU Library <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
 
@@ -87,7 +88,7 @@ const ReadingsPage = () => (
                         <Card.Text>
                         To stay true to their mission during the coronavirus pandemic, libraries should offer more digital services.
                         </Card.Text>
-                        <Card.Link href="https://www.nytimes.com/2020/05/28/opinion/libraries-coronavirus.html">Link</Card.Link>
+                        <Card.Link href="https://www.nytimes.com/2020/05/28/opinion/libraries-coronavirus.html">New York Times <Icon.ArrowRight /></Card.Link>
                     </Card.Body>
                     </Card>
                 </CardColumns>

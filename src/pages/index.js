@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Container, Row, Col, Navbar, Nav, Jumbotron, Accordion, Card, Button } from 'react-bootstrap';
+import { Row, Col, Jumbotron, Accordion, Card, Button } from 'react-bootstrap';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -19,11 +19,11 @@ const IndexPage = () => (
       <Jumbotron >
         <h2>Public Interest Technology:<br/>
           Cities, Design, Code, Reporting</h2>
-        <p className="lead">
+        <h4>
           A6883-1, Fall 2020<br/>
           Friday, 11AM - 1PM<br/>
           Office Hours: By appointment or Slack
-        </p>
+        </h4>
 
       </Jumbotron>
 
@@ -121,7 +121,7 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="3">
-              Week 04: 09/25/2020 Stage 02 - Engagement
+              Week 04: 10/02/2020 Stage 02 - Engagement
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="3">
@@ -156,7 +156,7 @@ const IndexPage = () => (
       <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="4">
-              Week 05: 10/02/2020 Stage 03 - Define
+              Week 05: 10/09/2020 Stage 03 - Define
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="4">
@@ -189,7 +189,7 @@ const IndexPage = () => (
       <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="5">
-              Week 06: 10/09/2020 Stage 04 - Ideate
+              Week 06: 10/16/2020 Stage 04 - Ideate
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="5">
@@ -222,7 +222,7 @@ const IndexPage = () => (
       <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="6">
-              Week 07: 10/16/2020 Stage 05 - Prototype
+              Week 07: 10/23/2020 Stage 05 - Prototype
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="6">
@@ -256,7 +256,7 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="7">
-              Week 08: 10/23/2020 Stage 06 - Test
+              Week 08: 10/30/2020 Stage 06 - Test
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="7">
@@ -291,7 +291,7 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="8">
-              Week 09: 10/16/2020 Iterate &amp; Test
+              Week 09: 11/06/2020 Iterate &amp; Test
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="8">
@@ -305,7 +305,7 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="9">
-              Week 10: 10/16/2020 Iterate &amp; Test
+              Week 10: 11/13/2020 Iterate &amp; Test
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="9">
@@ -319,7 +319,7 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="10">
-              Week 11: 10/16/2020 Write Up
+              Week 11: 11/20/2020 Write Up
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="10">
@@ -333,12 +333,12 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="11">
-              Week 12: 10/16/2020 Write Up
+              Week 12: 11/27/2020 No Class -- Thanksgiving Holiday
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="11">
             <Card.Body>
-              <p>Studio Time</p>
+              <p>No Class -- Thanksgiving Holiday</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -347,7 +347,21 @@ const IndexPage = () => (
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="12">
-              Week 13: 10/16/2020 Final Presentations
+              Week 13: 12/04/2020 Write Up
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="12">
+            <Card.Body>
+              <p>Studio Time</p>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+      {/****** Week Fourteen ******/}
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="12">
+              Week 14: 12/11/2020 Final Presentations
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="12">

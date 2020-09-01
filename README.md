@@ -1,18 +1,29 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://celestelayne.github.io/columbia-pit/">
+    <img alt="Gatsby" src="https://www.fordfoundation.org/media/3763/public_interest_tech.jpg" width="100%" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Public Interest Technology: Cities, Design, Code, Reporting
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Technology has the power to both help and harm people. Recently, it is clear that in current software design processes, the public interest is not always well served. 
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+In this Seminar, we will test what methods of discovery and design from a multidisciplinary perspective -- engaging computer science, architecture, and journalism to best interrogate and define the emerging field of public interest technology. To investigate this broad topic, our work will involve research, design and prototyping technology that would benefit Public Libraries and their many missions.
 
-## 🚀 Quick start
+We are framing Public Libraries as good examples of Public Interest Technology.  Historically and today libraries link information systems, information delivery and public space.  What can we learn from public libraries, and how can we engage with them to prototype Public Interest Technologies and expand their purpose? We have a group of partners we will be collaborating with  [Community Tech NYC](https://communitytechny.org/), [Metropolitan New York Library Council](metro.org), as well as select librarians from Brooklyn and Queens Public Libraries.
+
+We will be using Design Thinking methodology for phasing our design work.  As architects and journalists, we will critique this method, and add to it, to incorporate our own methods and expand its goals.  We will also ask questions at each step of the way such that the technology we design is not biased, not racist, and is transparent and public.  
+These are not easy tasks considering the long history of a technology that has often been designed to exclude, to incriminate and to segregate. We aim to design inclusive, non-discriminatory and publicly accessible prototypes.  
+
+This class is part of a Public Interest Technology University Network which includes 36 Universities.  We will benefit from the work of others engaged in the field.
+
+_This website was built with [Gatsby](https://www.gatsbyjs.com/)._
+
+***
+
+## 🚀 Gatsby Quick Start
 
 1.  **Create a Gatsby site.**
 
